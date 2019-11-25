@@ -35,10 +35,8 @@ const Pan = () => {
   return (
     <div>
       <div>
-        <h2>Round: {roundCount} / 50</h2>
-        <h3>
-          {score} / {roundCount}
-        </h3>
+        <h3>Round: {roundCount} / 50</h3>
+        <h3>Score: {score}</h3>
       </div>
       {!running && <button onClick={onStart}>start</button>}
 
